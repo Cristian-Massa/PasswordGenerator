@@ -1,9 +1,9 @@
 type Info = {
-    Length: number,
-    Uppercase: boolean,
-    Lowercase: boolean,
-    Numbers: boolean,
-    Symbols: boolean
+    Length: number;
+    Uppercase: boolean;
+    Lowercase: boolean;
+    Numbers: boolean;
+    Symbols: boolean;
 }
 
 export default function Generate({ Length, Uppercase, Lowercase, Numbers, Symbols }: Info) {
