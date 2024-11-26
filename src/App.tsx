@@ -7,7 +7,7 @@ function App() {
   const state = storePassword(state => state.passwords)
   
   return (
-    <div className="grid min-h-screen bg-gray-100 lg:grid-cols-[260px_1fr] dark:bg-gray-800">
+    <div className="grid min-h-screen bg-gray-100 lg:grid-cols-[260px_1fr] dark:bg-gray-800 dark:text-white">
       <div className="flex flex-col border-b lg:border-b-0 lg:border-r">
         <header className="flex items-center justify-between p-4 lg:p-6">
           <a className="flex items-center space-x-2 text-xl font-semibold" href="#">
